@@ -1,13 +1,15 @@
-import Try from "./try/try";
+import Sidebar from "./Sidebar/Sidebar";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <h1>Welcome to StyleSwap</h1>
-
-      <Try />
+      <header className="top-header">
+        <Sidebar />
+        <h1 className="title">Welcome to StyleSwap</h1>
+      </header>
     </div>
   );
-} 
+}
 
 export default App;
